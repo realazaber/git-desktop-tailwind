@@ -591,10 +591,6 @@ video {
   --tw-gradient-to: #1f2937;
 }
 
-.to-gray-500 {
-  --tw-gradient-to: #6b7280;
-}
-
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -618,4 +614,19 @@ video {
 .text-purple-500 {
   --tw-text-opacity: 1;
   color: rgb(168 85 247 / var(--tw-text-opacity));
+}
+
+#bg {
+  background-image: url('/public/images/svgs/star-bg.svg');
+  background-position: center 0, 0 0, 0 0;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#root {
+  z-index: 4;
 }
