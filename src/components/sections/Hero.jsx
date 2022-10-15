@@ -1,7 +1,7 @@
 import React from "react";
-import { getOsDetails } from "../../helpers/getOS";
+import { getOsName } from "../../helpers/getOS";
 
-const userOS = getOsDetails();
+const userOS = getOsName();
 const downloadLink =
   userOS === "Windows"
     ? "https://central.github.com/deployments/desktop/desktop/latest/win32"
