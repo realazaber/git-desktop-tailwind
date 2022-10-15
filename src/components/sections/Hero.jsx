@@ -1,4 +1,5 @@
 import React from "react";
+import { getOsDetails } from "../../helpers/getOS";
 
 const Hero = () => (
   <div className="px-3 flex flex-col justify-center items-center">
@@ -12,7 +13,7 @@ const Hero = () => (
       className="bg-gradient-to-t from-purple-900 to-purple-500 font-bold
 text-white p-3 rounded my-3"
     >
-      Download for Windows (64 bit)
+      Download for {getOsDetails()}
     </button>
   </div>
 );
