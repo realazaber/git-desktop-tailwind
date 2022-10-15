@@ -2,10 +2,9 @@ import React from "react";
 import { getOsName } from "../../helpers/getOS";
 
 const userOS = getOsName();
-const downloadLink =
-  userOS === "Windows"
-    ? "https://central.github.com/deployments/desktop/desktop/latest/win32"
-    : "https://central.github.com/deployments/desktop/desktop/latest/darwin";
+const downloadLink = userOS.includes("Windows")
+  ? "https://central.github.com/deployments/desktop/desktop/latest/win32"
+  : "https://central.github.com/deployments/desktop/desktop/latest/darwin";
 
 const Hero = () => (
   <div className="px-3 flex flex-col justify-center items-center">
