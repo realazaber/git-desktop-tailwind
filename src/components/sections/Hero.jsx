@@ -7,7 +7,7 @@ const downloadLink = userOS.includes("Windows")
   : "https://central.github.com/deployments/desktop/desktop/latest/darwin";
 
 const Hero = () => (
-  <div className="px-3 flex flex-col justify-center items-center">
+  <div className="px-3 flex flex-col justify-center items-center font-light">
     <h2 className="text-white text-5xl">Github Desktop</h2>
     <p className=" text-slate-400 text-xl text-center max-w-4xl	mt-5 mb-6">
       Focus on what matters instead of fighting with Git. Whether you're new to
