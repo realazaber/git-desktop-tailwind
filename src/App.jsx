@@ -1,8 +1,6 @@
 import "./styles/main.css";
 import Header from "./components/Header";
 import Hero from "./components/sections/Hero";
-import Card from "./components/Cards/Card";
-import CardGroup from "./components/Cards/CardGroup";
 import Background from "./components/sections/Background";
 
 const App = () => (
@@ -10,11 +8,6 @@ const App = () => (
     <Background />
     <Header />
     <Hero />
-    <CardGroup>
-      <Card title="title 1" body="body 1" />
-      <Card title="title 2" body="body 2" />
-      <Card title="title 3" body="body 3" />
-    </CardGroup>
   </div>
 );
 
