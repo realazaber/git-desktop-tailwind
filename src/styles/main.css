@@ -2,17 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    z-index: 3;
+}
+
 #bg {
     background-image: url('/public/images/svgs/star-bg.svg');
     background-position: center 0, 0 0, 0 0;
-    z-index: 3;
+    object-fit: cover;
+    z-index: 1 !important;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-}
-
-#root {
-    z-index: 2;
 }
