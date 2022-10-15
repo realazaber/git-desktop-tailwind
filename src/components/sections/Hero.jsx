@@ -1,5 +1,7 @@
 import React from "react";
 import { getOsName } from "../../helpers/getOS";
+import Card from "../Cards/Card";
+import CardGroup from "../Cards/CardGroup";
 
 const userOS = getOsName();
 const downloadLink = userOS.includes("Windows")
@@ -22,6 +24,30 @@ text-white p-3 rounded my-3"
         Download for {userOS}
       </button>
     </a>
+    <CardGroup>
+      <Card
+        title="Feeling brave?"
+        bodyStart="Try new features in the Beta Channel before they're released."
+      />
+      <Card
+        title="Prefer the MSI?"
+        bodyStart="Download for "
+        downloadLink="https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi"
+        downloadText="Windows (MSI)"
+      />
+      <Card
+        title="Mac OS?"
+        bodyStart="Download for "
+        downloadLink="https://central.github.com/deployments/desktop/desktop/latest/darwin"
+        downloadText="Mac Os"
+      />
+    </CardGroup>
+    <p className="text-white">
+      By downloading you agree to our{" "}
+      <a className="text-purple-500" href="https://desktop.github.com/terms/">
+        Open Source Application terms.
+      </a>
+    </p>
   </div>
 );
 
