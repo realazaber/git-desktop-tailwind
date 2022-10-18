@@ -9,13 +9,13 @@ const Header = () => (
       height="96"
     />
     <ul className="flex flex-row mt-2">
-      <li className="text-white m-2 text-sm">
+      <li className="text-white m-2 text-base">
         <a href="#home">Overview</a>
       </li>
-      <li className="text-purple-500 m-2 text-sm">
+      <li className="text-purple-500 m-2 text-base">
         <a href="https://desktop.github.com/release-notes/">Release Notes</a>
       </li>
-      <li className="text-purple-500 m-2 text-sm">
+      <li className="text-purple-500 m-2 text-base">
         <a href="https://docs.github.com/en/desktop">Help</a>
       </li>
     </ul>
