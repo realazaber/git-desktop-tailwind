@@ -12,10 +12,10 @@ const Header = () => (
       <li className="text-white m-2 text-base">
         <a href="#home">Overview</a>
       </li>
-      <li className="text-purple-500 m-2 text-base">
+      <li className="link m-2">
         <a href="https://desktop.github.com/release-notes/">Release Notes</a>
       </li>
-      <li className="text-purple-500 m-2 text-base">
+      <li className="link m-2">
         <a href="https://docs.github.com/en/desktop">Help</a>
       </li>
     </ul>

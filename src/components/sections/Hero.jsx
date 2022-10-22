@@ -44,7 +44,7 @@ text-white p-3 rounded my-3"
     </CardGroup>
     <p className="text-white">
       By downloading you agree to our{" "}
-      <a className="text-purple-500" href="https://desktop.github.com/terms/">
+      <a className="link" href="https://desktop.github.com/terms/">
         Open Source Application terms.
       </a>
     </p>

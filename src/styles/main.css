@@ -20,8 +20,9 @@
 
 @layer components {
     .container {
-        width: 70vw;
-        margin: auto;
-    
+        @apply w-9/12 m-auto z-10
+    }
+    .link {
+        @apply text-purple-500 text-base;   
     }
 }

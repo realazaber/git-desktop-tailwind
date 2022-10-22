@@ -4,7 +4,7 @@ const Card = (props) => (
     <h3 className="text-white my-2 font-semibold">{props.title}</h3>
     <p className="text-gray-400 font-normal">
       {props.bodyStart}{" "}
-      <a className="text-purple-500" href={props.downloadLink}>
+      <a className="link" href={props.downloadLink}>
         {props.downloadText}
       </a>
       {props.bodyEnd}
