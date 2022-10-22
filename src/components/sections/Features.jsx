@@ -2,6 +2,8 @@ import { getOsName } from "../../helpers/getOS";
 import { useState, useEffect } from "react";
 import FeatureCardGroup from "../Cards/FeatureCardGroup";
 import FeatureCard from "../Cards/FeatureCard";
+import CardGroup from "../Cards/CardGroup";
+import Card from "../Cards/Card";
 
 function Features() {
   const osName = getOsName();
@@ -56,6 +58,29 @@ function Features() {
           variety of different languages."
         />
       </FeatureCardGroup>
+      <CardGroup>
+        <Card
+          img="/svgs/file-media.svg"
+          title="Expanded diff image support"
+          bodyStart="Easily compare changed images. 
+          See the before and after, swipe or fade 
+          between the two, or look at just the changed parts."
+        />
+        <Card
+          img="/svgs/terminal.svg"
+          title="Expanded diff image support"
+          bodyStart="Easily compare changed images. 
+          See the before and after, swipe or fade 
+          between the two, or look at just the changed parts."
+        />
+        <Card
+          img="/svgs/organization.svg"
+          title="Expanded diff image support"
+          bodyStart="Easily compare changed images. 
+          See the before and after, swipe or fade 
+          between the two, or look at just the changed parts."
+        />
+      </CardGroup>
     </div>
   );
 }
