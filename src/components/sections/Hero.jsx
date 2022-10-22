@@ -26,16 +26,19 @@ text-white p-3 rounded my-3"
     </a>
     <CardGroup>
       <Card
+        img=""
         title="Feeling brave?"
         bodyStart="Try new features in the Beta Channel before they're released."
       />
       <Card
+        img=""
         title="Prefer the MSI?"
         bodyStart="Download for "
         downloadLink="https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi"
         downloadText="Windows (MSI)"
       />
       <Card
+        img=""
         title="Mac OS?"
         bodyStart="Download for "
         downloadLink="https://central.github.com/deployments/desktop/desktop/latest/darwin"
