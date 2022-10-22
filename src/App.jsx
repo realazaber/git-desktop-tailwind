@@ -5,7 +5,7 @@ import Background from "./components/sections/Background";
 import Features from "./components/sections/Features";
 
 const App = () => (
-  <div className="h-15 bg-gradient-to-b from-neutral-900 to-neutral-800">
+  <div className="h-[15%] bg-gradient-to-b from-[#191c20] to-[#24292e]">
     <Background />
     <div className="container">
       <Header />
