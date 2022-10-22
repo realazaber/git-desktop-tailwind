@@ -68,17 +68,19 @@ function Features() {
         />
         <Card
           img="/svgs/terminal.svg"
-          title="Expanded diff image support"
-          bodyStart="Easily compare changed images. 
-          See the before and after, swipe or fade 
-          between the two, or look at just the changed parts."
+          title="Extensive editor & shell integrations"
+          bodyStart="Open your favorite editor or shell from the app, 
+          or jump back to GitHub Desktop from your shell. GitHub 
+          Desktop is your springboard for work."
         />
         <Card
           img="/svgs/organization.svg"
-          title="Expanded diff image support"
-          bodyStart="Easily compare changed images. 
-          See the before and after, swipe or fade 
-          between the two, or look at just the changed parts."
+          title="Community supported"
+          bodyStart="GitHub Desktop is "
+          downloadLink="https://github.com/desktop/desktop"
+          downloadText="open source "
+          bodyEnd="now! Check out our roadmap, 
+          contribute, and help us make collaboration even easier."
         />
       </CardGroup>
     </div>
