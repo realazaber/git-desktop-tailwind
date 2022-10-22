@@ -45,7 +45,7 @@ text-white p-3 rounded my-3"
         downloadText="Mac Os"
       />
     </CardGroup>
-    <p className="text-white">
+    <p className="text-white mt-[-6rem]">
       By downloading you agree to our{" "}
       <a className="link" href="https://desktop.github.com/terms/">
         Open Source Application terms.
