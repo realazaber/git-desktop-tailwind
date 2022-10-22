@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    z-index: 3;
+    z-index: 3 !important;
 }
 
 #bg {
@@ -16,4 +16,12 @@
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+@layer components {
+    .container {
+        width: 70vw;
+        margin: auto;
+    
+    }
 }
