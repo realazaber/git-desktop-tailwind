@@ -46,6 +46,7 @@ function Features() {
           a local branch, even if they're from upstream 
           branches or forks. See which pull requests pass 
           commit status checks, too!"
+          reverse="true"
         />
         <FeatureCard
           img="syntax-highlighting"
