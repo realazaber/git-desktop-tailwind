@@ -8,23 +8,26 @@ html {
 
 * {
     z-index: 3 !important;
+    
 }
 
 #bg {
     background-image: url('/public/images/svgs/star-bg.svg');
     background-position: center 0, 0 0, 0 0;
-    object-fit: cover;
-    z-index: 1 !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 @layer components {
+
+    * {
+        @apply duration-500;
+    }
+
+    #bg {
+        @apply absolute top-0 right-0 left-0 bottom-0 z-[1] object-cover bg-center;
+    }
+
     .container {
-        @apply w-9/12 m-auto z-10
+        @apply w-9/12 m-auto z-10;
     }
     .link {
         @apply text-purple-500 text-base;   
