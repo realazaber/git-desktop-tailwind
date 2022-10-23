@@ -83,6 +83,17 @@ function Features() {
           contribute, and help us make collaboration even easier."
         />
       </CardGroup>
+      <div className="text-center">
+        <a
+          href="https://github.com/desktop/desktop"
+          target="_blank"
+          className="m-auto"
+        >
+          <button className="text-white border border-white rounded p-3 hover:text-slate-800 hover:bg-white">
+            See what's been built
+          </button>
+        </a>
+      </div>
     </div>
   );
 }
