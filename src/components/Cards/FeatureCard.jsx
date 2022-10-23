@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function FeatureCard(props) {
-  const [imgPath, setImgPath] = useState("/images/webps/");
+  const [imgPath, setImgPath] = useState("./images/webps/");
   const [rowClass, setRowClass] = useState(
     "flex flex-col align-middle justify-between px-5"
   );

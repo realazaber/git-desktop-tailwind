@@ -8,7 +8,7 @@ import Card from "../Cards/Card";
 function Features() {
   const osName = getOsName();
   const [imgPath, setImgPath] = useState(
-    "/images/webps/github-desktop-screenshot-"
+    "./images/webps/github-desktop-screenshot-"
   );
 
   useEffect(() => {

@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => (
   <header className="flex flex-col justify-center items-center text-white py-10 px-3">
     <img
-      src="/images/svgs/desktop-icon.svg"
+      src="./images/svgs/desktop-icon.svg"
       alt="github logo"
       width="96"
       height="96"
