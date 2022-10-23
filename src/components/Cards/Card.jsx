@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function Card(props) {
-  let imgUrl = "/images/" + props.img;
+  let imgUrl = "./images/" + props.img;
   return (
     <div className="flex flex-col phone:w-[30%] desktop:w-[25%] text-center mx-7 desktop:h-48">
-      {imgUrl != "/images/" ? (
+      {imgUrl != "./images/" ? (
         <img
           src={imgUrl}
           alt={props.title}
