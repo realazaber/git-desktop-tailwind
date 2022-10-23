@@ -3,12 +3,12 @@ import { useState } from "react";
 function Card(props) {
   let imgUrl = "/images/" + props.img;
   return (
-    <div className="flex flex-col w-4/12 text-center mx-1 h-48">
+    <div className="flex flex-col phone:w-[30%] desktop:w-[25%] text-center mx-7 desktop:h-48">
       {imgUrl != "/images/" ? (
         <img
           src={imgUrl}
           alt={props.title}
-          className="w-14 m-auto bg-[#7b63ab] py-3 px-4 rounded"
+          className="w-14 m-auto mt-3 tablet:mt-0 bg-[#7b63ab] py-3 px-4 rounded"
         />
       ) : (
         ""

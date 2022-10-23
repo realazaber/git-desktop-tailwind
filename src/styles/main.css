@@ -27,9 +27,9 @@ html {
     }
 
     .container {
-        @apply w-9/12 m-auto z-10;
+        @apply w-[90%] tablet:w-2/3 desktop:w-9/12 m-auto z-10;
     }
     .link {
-        @apply text-purple-500 text-base;   
+        @apply text-purple-500 text-base hover:underline;   
     }
 }

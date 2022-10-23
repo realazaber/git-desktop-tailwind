@@ -10,7 +10,7 @@ const downloadLink = userOS.includes("Windows")
 
 const Hero = () => (
   <div className="px-3 flex flex-col justify-center items-center font-light">
-    <h2 className="text-white text-5xl">Github Desktop</h2>
+    <h2 className="text-white text-5xl text-center">Github Desktop</h2>
     <p className=" text-slate-400 text-[20px] text-center max-w-4xl	mt-5 mb-6">
       Focus on what matters instead of fighting with Git. Whether you're new to
       Git or a seasoned user, GitHub Desktop simplifies your development
@@ -45,7 +45,7 @@ text-white p-3 rounded my-3"
         downloadText="Mac Os"
       />
     </CardGroup>
-    <p className="text-white mt-[-6rem]">
+    <p className="text-white text-center tablet:mt-[-5rem]">
       By downloading you agree to our{" "}
       <a className="link" href="https://desktop.github.com/terms/">
         Open Source Application terms.

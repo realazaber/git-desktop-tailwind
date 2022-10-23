@@ -1,6 +1,6 @@
 const CardGroup = ({ children }) => {
   return (
-    <div className="flex align-middle justify-center my-8 w-[900px] m-auto">
+    <div className="flex flex-col phone:flex-row tablet:flex-wrap align-middle phone:justify-center my-8 m-auto">
       {children}
     </div>
   );
